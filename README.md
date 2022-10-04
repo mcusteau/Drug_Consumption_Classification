@@ -1,1 +1,2 @@
-![Here are the results in the form of RUC curves.](https://github.com/mcusteau/Drug_Consumption_Classification/pictures/ruc_curves.png?raw=true)
+
+![Here are the RUC curves](https://user-images.githubusercontent.com/54859612/193950370-db7624c1-5835-4fca-94f6-9cc8bc0b091e.png)
