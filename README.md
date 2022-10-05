@@ -8,3 +8,5 @@ And here are the resulting confusion matrices
 ![Knn cm](https://user-images.githubusercontent.com/54859612/193950928-020f724f-5d75-433f-b43b-ca4a53c1625d.png)
 ![rf cm](https://user-images.githubusercontent.com/54859612/193950931-b28b1f87-ed9e-42b7-8b51-0c084b33a7c2.png)
 ![svm cm](https://user-images.githubusercontent.com/54859612/193950933-6c40f08b-015d-4429-8b23-af0c8afc8aa9.png)
+
+As we can see from the results, it is apparent that Random Forest was the most accurate model as was consistently was able to have the highest true positive rate and the lowest false positive rate on all six RUC curves, with K Nearest Neighbour arguably the second best model and Decision Trees and Support Vector machine the least performing models. It also seems from the RUC curves that alcohol and crack was a challenge for all models, and Cannabis the easiest to predict. It is also interesting to note that all models except RF had trouble with Heroin. Given these results, I think it is apparent that ensembles are indeed a very effective model for classifications. 
