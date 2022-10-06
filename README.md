@@ -1,13 +1,13 @@
 
 Here are the resulting RUC curves from the 4 models on a subset of 6 drugs.
 
-![Here are the RUC curves](https://user-images.githubusercontent.com/54859612/193950370-db7624c1-5835-4fca-94f6-9cc8bc0b091e.png)
+![ruc_curves](https://user-images.githubusercontent.com/54859612/194197741-a8bbcd87-fdde-4165-aac9-e864438b7224.png)
 
 And here are the resulting confusion matrices
-![dt cm](https://user-images.githubusercontent.com/54859612/193950919-6698faab-eca9-4af7-bc41-3b87b3d6b45e.png)
-![Knn cm](https://user-images.githubusercontent.com/54859612/193950928-020f724f-5d75-433f-b43b-ca4a53c1625d.png)
-![rf cm](https://user-images.githubusercontent.com/54859612/193950931-b28b1f87-ed9e-42b7-8b51-0c084b33a7c2.png)
-![svm cm](https://user-images.githubusercontent.com/54859612/193950933-6c40f08b-015d-4429-8b23-af0c8afc8aa9.png)
+![dt cm](https://user-images.g![rf cm](https://user-images.githubusercontent.com/54859612/194197778-405677f1-2bef-4d6b-b706-2ce6624a3204.png)
+ithubusercontent.com/54859612/194197774-8ce51035-95b1-49f2-a2d2-703459bf49bc.png)
+![Knn cm](https://user-images.githubusercontent.com/54859612/194197794-f7ac85e7-0e5f-4d4c-9b56-bdbb75507e2c.png)
+![svm cm](https://user-images.githubusercontent.com/54859612/194197812-b4f625c3-160c-4a92-b853-fd6839253d0e.png)
 
 As we can see from the results, it is apparent that Random Forest was the most accurate model as it consistently was able to have the highest true positive rate and the lowest false positive rate on all six RUC curves, with K Nearest Neighbour arguably the second best model and Decision Trees and Support Vector machine the least good performing models. It also seems from the RUC curves that alcohol was the biggest challenge for the models as the results don't stray far from random guessing, and Cannabis the easiest to predict. It is also interesting to note that all models except RF had trouble with Heroin. Given these results, I think it is apparent that ensembles are indeed a very effective model for classifications as RF not only always got the best results, but was also very consistent, unlike SVM which sometimes got ok results and sometimes was the worst performing model. 
 
