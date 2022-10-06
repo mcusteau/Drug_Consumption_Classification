@@ -102,11 +102,17 @@ def create_train_model(clf, train_set, train_labels, **kwargs):
 def train_predict(clf, model_name, drug_subset, confusionMatrix=True, train_set=respondents_train, train_labels=drugs_train, test_set=respondents_test, test_labels=drugs_test, **kwargs):
 	predictions = []
 	models = []
+	print("\nResults for "+model_name+"\n")
 	for individual_drug in drug_subset:
 		# train model for specific drug
 		individual_model = create_train_model(clf, train_set, train_labels[individual_drug].astype('int'), **kwargs)
 		# predict on test set
 		drug_pred = individual_model.predict(test_set)
+		precision, recall, fscore, _ = metrics.precision_recall_fscore_support(test_labels[individual_drug].values.tolist(), drug_pred, average='micro')
+		print(individual_drug)
+		print("precision:", precision)
+		print("recall:", recall)
+		print()
 		predictions.append(drug_pred)
 		models.append(individual_model)
 	# create confusion matrix

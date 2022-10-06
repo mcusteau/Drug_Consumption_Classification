@@ -1,0 +1,110 @@
+Results for Decision Tree Classifier
+
+Alcohol
+precision: 0.9308681672025724
+recall: 0.9308681672025724
+
+Cannabis
+precision: 0.7556270096463023
+recall: 0.7556270096463023
+
+Coke
+precision: 0.6270096463022508
+recall: 0.6270096463022508
+
+Crack
+precision: 0.8215434083601286
+recall: 0.8215434083601286
+
+Heroin
+precision: 0.8135048231511254
+recall: 0.8135048231511254
+
+Meth
+precision: 0.7459807073954984
+recall: 0.7459807073954984
+
+
+Results for Random Forest Classifier
+
+Alcohol
+precision: 0.9662379421221865
+recall: 0.9662379421221865
+
+Cannabis
+precision: 0.8279742765273312
+recall: 0.8279742765273312
+
+Coke
+precision: 0.707395498392283
+recall: 0.707395498392283
+
+Crack
+precision: 0.9019292604501608
+recall: 0.9019292604501608
+
+Heroin
+precision: 0.8858520900321544
+recall: 0.8858520900321544
+
+Meth
+precision: 0.7861736334405145
+recall: 0.7861736334405145
+
+
+Results for Support Vector Machine
+
+Alcohol
+precision: 0.9662379421221865
+recall: 0.9662379421221865
+
+Cannabis
+precision: 0.7427652733118971
+recall: 0.7427652733118971
+
+Coke
+precision: 0.6157556270096463
+recall: 0.6157556270096463
+
+Crack
+precision: 0.905144694533762
+recall: 0.905144694533762
+
+Heroin
+precision: 0.8842443729903537
+recall: 0.8842443729903537
+
+Meth
+precision: 0.7604501607717041
+recall: 0.7604501607717041
+
+
+Results for K Nearest Neighbors Classifier
+
+Alcohol
+precision: 0.9662379421221865
+recall: 0.9662379421221865
+
+Cannabis
+precision: 0.7733118971061094
+recall: 0.7733118971061094
+
+Coke
+precision: 0.6430868167202572
+recall: 0.6430868167202572
+
+Crack
+precision: 0.8810289389067524
+recall: 0.8810289389067524
+
+Heroin
+precision: 0.860128617363344
+recall: 0.860128617363344
+
+Meth
+precision: 0.7443729903536977
+recall: 0.7443729903536977
+
+
+
+
