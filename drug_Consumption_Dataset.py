@@ -108,10 +108,9 @@ def train_predict(clf, model_name, drug_subset, confusionMatrix=True, train_set=
 		individual_model = create_train_model(clf, train_set, train_labels[individual_drug].astype('int'), **kwargs)
 		# predict on test set
 		drug_pred = individual_model.predict(test_set)
-		precision, recall, fscore, _ = metrics.precision_recall_fscore_support(test_labels[individual_drug].values.tolist(), drug_pred, average='micro')
 		print(individual_drug)
-		print("precision:", precision)
-		print("recall:", recall)
+		print("precision:", metrics.precision_score(test_labels[individual_drug].values.tolist(), drug_pred))
+		print("recall:", metrics.recall_score(test_labels[individual_drug].values.tolist(), drug_pred))
 		print()
 		predictions.append(drug_pred)
 		models.append(individual_model)
