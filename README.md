@@ -4,8 +4,9 @@ Here are the resulting RUC curves from the 4 models on a subset of 6 drugs.
 ![ruc_curves](https://user-images.githubusercontent.com/54859612/194197741-a8bbcd87-fdde-4165-aac9-e864438b7224.png)
 
 And here are the resulting confusion matrices
-![dt cm](https://user-images.g![rf cm](https://user-images.githubusercontent.com/54859612/194197778-405677f1-2bef-4d6b-b706-2ce6624a3204.png)
-ithubusercontent.com/54859612/194197774-8ce51035-95b1-49f2-a2d2-703459bf49bc.png)
+
+![dt cm](https://user-images.githubusercontent.com/54859612/194197851-134779eb-9d26-4b86-a4fc-0d0d1cb3a380.png)
+![rf cm](https://user-images.githubusercontent.com/54859612/194197858-406c8570-e63b-4e6f-835d-553121650872.png)
 ![Knn cm](https://user-images.githubusercontent.com/54859612/194197794-f7ac85e7-0e5f-4d4c-9b56-bdbb75507e2c.png)
 ![svm cm](https://user-images.githubusercontent.com/54859612/194197812-b4f625c3-160c-4a92-b853-fd6839253d0e.png)
 
